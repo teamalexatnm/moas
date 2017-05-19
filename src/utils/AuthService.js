@@ -5,7 +5,7 @@ class AuthService {
     // Configure Auth0
     this.lock = new Auth0Lock('Qw7Pr6d0lWqyDldL8TDFYikzGMzWIQ4L', 'nathaniel-j.auth0.com', {
       auth: {
-        redirectUrl: 'http://138.68.229.153:3000//welcome',
+        redirectUrl: 'http://138.68.229.153:3000/welcome',
         responseType: 'token'
       }
     })

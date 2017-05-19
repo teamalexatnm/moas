@@ -18,7 +18,7 @@ export default class Navbar extends Component {
                 <Link to="/" className="navbar-brand" style={styles.title}>My Inventory with Alexa</Link>
               </div>
               <div id="navbar" className="navbar-collapse collapse">
-                <div className="nav navbar-nav navbar-left" style={styles.github}><a href="https://github.com/teamalexatnm" style={styles.githubText}>Click here to check out our Github repository for this project!</a></div>
+                <div className="nav navbar-nav navbar-left" style={styles.github}><a href="https://github.com/teamalexatnm" style={styles.githubText} target="_blank">Click here to check out our Github repository for this project!</a></div>
                 <ul className="nav navbar-nav navbar-right">
                   <li style={styles.navbarButtons}><Link to="/" style={styles.navButtonText}>Home</Link></li>
                   <li style={styles.navbarButtons}><Link to="/inventory" style={styles.navButtonText}>Inventory</Link></li>
